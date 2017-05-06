@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package andre.ribeiro.jersey.jetty;
 
 import com.google.gson.Gson;
@@ -29,7 +24,6 @@ public class HelloWorld {
         return "Hello World";
     }
     
-    
     /**
      * 
      * @return Hello World in Json format using Gson.
@@ -41,7 +35,5 @@ public class HelloWorld {
         Gson gson = new Gson();
         return gson.toJson("Hello World");
     }
-    
-    
     
 }
